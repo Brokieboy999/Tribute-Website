@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: rgb(226, 225, 222);
+    /* height: 260vh; */
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    margin-top: 50px;
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.kalam{
+    border-radius: 300px;
+    margin-right: 80px;
+    width: 250px;
+}
+
+.h-1{
+    font-size: 60px;
+    color: rgb(28, 28, 78);
+    
+}
+
+.p1{
+    margin-left: 420px;
+    color:rgb(28, 28, 78) ;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+   
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    height: 100%;
+    width: 70vw;
+    margin-top: 30px;
+    flex-direction: column;
+    
+}
+
+.main p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.main h2{
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.h-2{
+    
+    font-size: 60px;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.bio li{
+   font-size: 20px;
+}
+
+.read-more{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    /* height: 10vh;
+    width: 100vw; */
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
